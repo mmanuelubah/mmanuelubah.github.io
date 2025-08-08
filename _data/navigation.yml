@@ -1,0 +1,11 @@
+- title: "Search"
+  url: /search/
+- title: "Notes"
+  url: /notes/
+- title: "Books"
+  url: /books/
+- title: "Ideas"
+  url: /ideas/
+- title: "Tags"
+  url: /tags/
+
