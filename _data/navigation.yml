@@ -1,11 +1,17 @@
+main:
+- title: "Home"
+  url: /
 - title: "Search"
   url: /search/
 - title: "Notes"
   url: /notes/
 - title: "Books"
   url: /books/
-- title: "Ideas"
-  url: /ideas/
+- title: "Web3"
+  url: /web3/
 - title: "Tags"
   url: /tags/
-
+- title: "About"
+  url: /about/
+- title: "Categories"
+  url: /categories/

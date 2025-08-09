@@ -33,6 +33,12 @@ tag_archive:
   type: liquid
   path: /tags/
 
+#Category
+category_archive:
+  type: liquid
+  path: /categories/
+
+
 # Pagination (optional)
 paginate: 5
 paginate_path: "/page:num/"
@@ -42,8 +48,19 @@ markdown: kramdown
 highlighter: rouge
 
 #search
-search: true
+search: false
 search_provider: lunr
+
+minimal_mistakes_skin: "dark"  # Can be "dark", "default", "contrast", etc.
+
+# Enable the dark/light toggle
+color_scheme_toggle: true
+
+# Optional: Choose a default scheme ("light" or "dark")
+default_color_scheme: "dark"
+
+include:
+  - _pages
 
 footer:
   links:
@@ -56,3 +73,8 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/yourusername"
+
+author_profile: true
+
+
+
