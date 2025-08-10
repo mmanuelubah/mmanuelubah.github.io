@@ -14,19 +14,22 @@ plugins:
 author:
   name: mmanuelubah
   avatar: "/assets/images/MindOnChain.png"
-  bio: "Writer, Researcher, $hellBoy"
+  bio: "Writer, Researcher, linux$"
+
+reading_time: true
+show_reading_time: true
 
 # Collections (optional if you want to group notes)
 collections:
   notes:
     output: true
-    permalink: /notes/:name/
+    permalink: /notes/:title/
   books:
     output: true
-    permalink: /books/:name/
+    permalink: /books/:title/
   ideas:
     output: true
-    permalink: /web3/:name/
+    permalink: /web3/:title/
 
 #tags
 tag_archive:
@@ -61,6 +64,9 @@ default_color_scheme: "dark"
 
 include:
   - _pages
+  - _notes
+  - _books
+  - _web3
 
 footer:
   links:

@@ -1,14 +1,12 @@
 ---
-title: In Good Hands
-date: 2023-08-07
-categories:
-  - Faith
-  - Notes
-tags:
-  - hope
-  - trust
-  - faith
-  - perseverance
+layout: single
+title: "In Good Hands"
+date: 2025-08-10
+reading_time: true
+show_reading_time: true
+categories: [notes]
+tags: [hope, trust, faith, perseverance]
+author_profile: true
 excerpt: Even in uncertainty and feeling left behind, I trust that I am in good hands — in God's hands.
 ---
 There are seasons when I feel lost — unsure of my next step, uncertain about where my life is heading.  
