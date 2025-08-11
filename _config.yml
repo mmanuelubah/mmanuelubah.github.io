@@ -10,14 +10,30 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
+plugins_dir: _plugins
+
 # Author info
 author:
   name: mmanuelubah
   avatar: "/assets/images/MindOnChain.png"
   bio: "Writer, Researcher, linux$"
+  location: "Lagos, Nigeria"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github" 
+      url: "https://github.com/mmanuelubah"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://x.com/Mind_On_Chain"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/chinaza-ubanatu-05a983184/"
+    - label: "Substack"
+      icon: "fab fa-substack"
+      url: "https://substack.com/@mindonchain"
 
-reading_time: true
-show_reading_time: true
+
+read_time: true
 
 # Collections (optional if you want to group notes)
 collections:
@@ -68,6 +84,21 @@ include:
   - _books
   - _web3
 
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      share: true   # <— Enable sharing buttons
+# Social sharing settings
+share:
+  facebook: true
+  twitter: true
+  linkedin: true
+  substack: true
+
 footer:
   links:
     - label: "GitHub"
@@ -75,10 +106,13 @@ footer:
       url: "https://github.com/mmanuelubah"
     - label: "Twitter"
       icon: "fab fa-twitter"
-      url: "https://twitter.com/mindonchain"
+      url: "https://x.com/Mind_On_Chain"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://www.linkedin.com/in/chinaza-ubanatu-05a983184/"
+    - label: "Substack"
+      icon: "fab fa-substack"
+      url: "https://substack.com/@mindonchain"
 
 author_profile: true
 
